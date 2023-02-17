@@ -11,7 +11,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-var NewBook models.Book
+// var NewBook models.Book
 
 func GetBook(w http.ResponseWriter, r *http.Request) {
 	newBooks := models.GetAllBooks()
